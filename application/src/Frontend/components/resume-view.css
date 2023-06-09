@@ -1,0 +1,70 @@
+.heading {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: calc(100% - 13px);
+    height: 50px;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    padding: 0 5px;
+  }
+  
+  .Resumes-Grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .Resumes-Grid h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .Resumes-Grid p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  /* Resume container */
+  .resume-container {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Resume username */
+  .resume-username {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  /* Resume text */
+  .resume-text {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+  }
+  
+  /* Resume filters (keywords) container */
+  .resume-filters {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Resume filters (keywords) item */
+  .resume-filter-item {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2a9d8f;
+    background-color: #f0f3bd;
+    border-radius: 3px;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  

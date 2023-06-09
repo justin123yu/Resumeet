@@ -1,0 +1,82 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+    font-family: Yantramanav,Roboto,"Helvetica Neue",sans-serif;
+}
+
+.nav-logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-logo a:hover {
+    color: #ffd700;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    font-size: 18px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffd700;
+}
+
+.nav-buttons {
+    display: flex;
+    margin-left: auto;
+}
+
+.signup-btn, .login-btn {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: #333;
+    color: #f9f7f7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signup-btn:hover, .login-btn:hover {
+    background-color: #ffd700;
+}
+/*Colors*/
+navbar {
+    background-color: #2D2D2D;
+    color: #333;
+}
+
+.navbar a {
+    color: #333;
+}

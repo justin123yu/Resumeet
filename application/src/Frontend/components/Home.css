@@ -1,0 +1,117 @@
+
+.welcome-section {
+    /* padding: 50px 20px; */
+    text-align: center;
+}
+
+.welcome-section h2 {
+    font-weight: bold;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 40px;
+}
+
+.welcome-section p {
+    margin-top: 1px;
+    font-size: 22px;
+}
+
+.sign-in {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.sign-in h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.sign-in label {
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: left;
+    width: 100%;
+}
+
+.sign-in input[type="text"],
+.sign-in input[type="password"] {
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.sign-in input[type="submit"] {
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    width: 100%;
+}
+
+.sign-in input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.sign-in p {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.sign-in a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sign-in a:hover {
+    text-decoration: underline;
+}
+
+
+/*Add Color Schemes*/
+#background-image {
+    background-image: url("https://images.pexels.com/photos/6177669/pexels-photo-6177669.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); 
+    background-size: cover;
+}
+* {
+    color: #2D2D2D;
+}
+.navbar {
+    background-color: #F9F7F7;
+    color: #F9F7F7;
+}
+
+.navbar a {
+    color: #F9F7F7;
+}
+.btn-signup {
+    background-color: #FF6B6B;
+    color: #F9F7F7;
+}
+
+.btn-login {
+    background-color: #F9F7F7;
+    color: #2D2D2D;
+}
+.rounded-box { 
+    position:relative;
+    width: 650px;
+    height: 700px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 100px;
+    padding: 40px;
+  }
+  

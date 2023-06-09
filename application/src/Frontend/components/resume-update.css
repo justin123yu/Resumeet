@@ -1,0 +1,78 @@
+textarea {
+  resize: none;
+}
+/* Style the main form container */
+.update-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the form header */
+  .update-form h1 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+  }
+  
+  /* Style the form labels */
+  .update-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  /* Style the form input fields */
+  .update-form textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style the submit button */
+  .update-form button[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .update-form button[type="submit"]:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the updated resume container */
+  .update-form .updated-resume {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  /* Style the download link */
+  .update-form .download-link {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .update-form .download-link:hover {
+    background-color: #ccc;
+  }
+  

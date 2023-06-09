@@ -1,0 +1,122 @@
+/* Style the main form container */
+.resume-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the form header */
+  .resume-form h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+  }
+  
+  /* Style the form labels */
+  .resume-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  /* Style the form input fields */
+  .resume-form input[type="text"],
+  .resume-form input[type="tel"],
+  .resume-form input[type="email"],
+  .resume-form textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style the job entries container */
+  .resume-form .job-entries {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style the job entry container */
+  .resume-form .job-entry {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the job entry fields */
+  .resume-form .job-entry label {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .resume-form .job-entry input[type="text"],
+  .resume-form .job-entry textarea {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Style the remove job button */
+  .resume-form .remove-job-button {
+    align-self: flex-end;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .resume-form .remove-job-button:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the add job button */
+  .resume-form .add-job-button {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .resume-form .add-job-button:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the submit button */
+  .resume-form button[type="submit"] {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .resume-form button[type="submit"]:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the generated resume container */
+  .resume-form .generated-resume {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
